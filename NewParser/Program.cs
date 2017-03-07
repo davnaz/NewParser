@@ -11,6 +11,7 @@ namespace NewParser
         static void Main(string[] args)
         {
             Console.WriteLine("Manual commit!");
+            Console.ReadLine();
         }
     }
 }
