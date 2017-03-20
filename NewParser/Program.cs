@@ -34,7 +34,7 @@ namespace NewParser
 
         private static void getPhone()
         {
-            HttpWebRequest req = (HttpWebRequest)WebRequest.Create(gumtreeBaselink+ " /j-vac-phone-get.json?token=1142584461|1489997172292|6b42efbfbd116c|11efbfbdefbfbdefbfbdefbfbd|4c00efbfbdefbfbdefbfbd|65efbfbd4366efbfbd");
+            HttpWebRequest req = (HttpWebRequest)WebRequest.Create(gumtreeBaselink+ "/j-vac-phone-get.json?token=1142584461|1489997172292|6b42efbfbd116c|11efbfbdefbfbdefbfbdefbfbd|4c00efbfbdefbfbdefbfbd|65efbfbd4366efbfbd");
             req.Method = "GET";
             req.Timeout = 100000;
             req.Accept = "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";
